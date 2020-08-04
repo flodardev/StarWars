@@ -6,6 +6,7 @@ export default function Navbar(props: { setPage: Function }) {
 	return (
 		<nav>
 			<button
+				className="p-2 m-2 hover:bg-white hover:text-black transition duration-500"
 				onClick={() => {
 					setPage("planets");
 				}}
@@ -13,6 +14,7 @@ export default function Navbar(props: { setPage: Function }) {
 				Planets
 			</button>
 			<button
+				className="p-2 m-2 hover:bg-white hover:text-black transition duration-500"
 				onClick={() => {
 					setPage("people");
 				}}

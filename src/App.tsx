@@ -6,13 +6,20 @@ import Navbar from "./components/Navbar";
 import People from "./components/People";
 import Planets from "./components/Planets";
 
+// Images
+import starwarslogo from "./images/star-wars-4.svg";
+
 function App() {
 	const [page, setPage] = useState("planets");
 
 	return (
 		<>
 			<div className="App">
-				<h1>Star Wars Info</h1>
+				<div className="container mt-6">
+					<img src={starwarslogo} alt="Star Wars Logo" />
+					<h1 className="text-5xl">INFO</h1>
+				</div>
+
 				<Navbar setPage={setPage} />
 				<div className="content">
 					{page === "planets" ? <Planets /> : <People />}
