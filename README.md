@@ -2,6 +2,11 @@
 
 A React app built with the React Query library.
 
+## Deployed
+
+Deployed with Vercel
+https://star-wars-kappa.vercel.app/
+
 ## Built With
 
 - [Node.js](https://www.typescriptlang.org/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
