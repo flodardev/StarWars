@@ -16,7 +16,7 @@
 		"react-dom": "^16.13.1",
 		"react-query": "^2.5.13",
 		"react-query-devtools": "^2.4.2",
-		"react-scripts": "3.4.1",
+		"react-scripts": "5.0.1",
 		"tailwindcss": "^1.6.2",
 		"typescript": "^3.9.7"
 	},
